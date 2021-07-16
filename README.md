@@ -25,7 +25,7 @@ I will also test the code with values other than the default values during testi
   generates a vgg16_plot.png, and a vgg16_similarity.npz file in the log_dir. vgg16_plot.png shows the plot of vgg16 cosine similarity between the    ground truth frames and predicted frames for the n_future no of frames. for example if n_past= 5 and n_future= 10, then for datatype= 'color', it would evaluate the vgg16 cosine similarity between ground truth and predicted frames, starting with gt_0005 and pred_0005 till gt_0014 and pred_0014 (total 10 timesteps in future). These 10 values then need to be plotted in vgg16_plot.png also saved in vgg16_similarity.npz
   
  ```
- python main.py --log_dir "path/to/log_dir" --datatype "grayscale" --n_past 10 --n_future 20 
+ python main.py --log_dir path/to/log_dir --datatype grayscale --n_past 10 --n_future 20 
  ```
 
 
