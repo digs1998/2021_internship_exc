@@ -1,7 +1,7 @@
 
 # Contributed by Meenakshi Sarkar, email meenakshisar@iisc.ac.in for any queries.
 
-The main.py generates the vgg16 cosine similarity between #n_future of ground truth and predicted frames given by the data_path. Image frames can be of two types color and grayscale. \
+The main.py generates the vgg16 cosine similarity between #n_future of ground truth and predicted frames given by the data_path. Image frames can be of two types **color** and **grayscale**. \
 The directory ../data/color  has 60 color images (30 ground truth frames given by suffix: gt_ and 30 predicted frames given by suffix: pred_)
 with 3 color channels (RGB in that order, [64,64,3]). The directory ../data/grayscale has 60 grayscale images (30 ground truth frames given by suffix: gt_ and 30 predicted frames given by suffix: pred_) with 3 color channels (All the 3 channels have the same value since its a grayscale image,[64,64,3])
 
